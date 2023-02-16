@@ -32,7 +32,16 @@ Shape of each dataset is as follows:
 ````
 where the first hyperedge consists of node index 0, 1, and 2, and the second hyperedge consists of node index 1, 3, 4, and 5.
 
+## Implementation
 
+### Overview
+
+In this repo, there are three main codes: HyperTrans.jar, THera.jar, and Observation.py.
+- HyperTrans.jar: It receives any hypergraph dataset (same format as explained in dataset section), and computes hyperwedge with resulting transitivity by using HyperTrans and Fast-HyperTrans (see Section 3 of the main paper).
+- THera.jar: It receives real-world hypergraph dataset (same format as explained in dataset section), and generates a synthetic hypergraph by using THera (see Section 5 of the main paper).
+- Observation: It receives hypergraph dataset and resulting transitivity, and reproduces observations of hypergraphs (see Section 4 and 5 of the main paper).
+
+### Execution
 
 ## Reference
 
