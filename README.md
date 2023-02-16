@@ -32,6 +32,8 @@ Shape of each dataset is as follows:
 ````
 where the first hyperedge consists of node index 0, 1, and 2, and the second hyperedge consists of node index 1, 3, 4, and 5.
 
+***We also provide generated hypergraphs by THera***
+
 ## Implementation
 Codes are in src folder.
 
@@ -83,6 +85,21 @@ This implies
 - First hyperedge consist of node index 0, 1, and 2.
 - Second hyperedge consist of node index 0, 2, 3, and 4.
 Note that this format is identical to the original hypergraph
+
+#### Observation.py
+##### Input
+````
+python [-obs: observation type] [-obs_detail: type of hypergraph] [-real_data_name: file path to real-world hypergraph] [-gen_data_name: file path to generated hypergraph] [-real_result_name: file path to the real-world transitivity results] [-gen_result_name: file path to the generated transitivity results]
+````
+- obs indicates whether observation 1, 2, 3, or 4.
+- obs_detail indicates whether to check observation of real-world or generated .
+- real_data_name indicates file path to the real-world hypergraph.
+- gen_data_name indicates file path to the generated hypergraph.
+- real_result_name indicates file path to the resulting hypergraph transitivity of real-world hypergraph.
+- gen_result_name indicates file path to the resulting hypergraph transitivity of generated hypergraph.
+
+##### Output
+It reproduces result of real-world hypergraphs.
 
 ## Reference
 
