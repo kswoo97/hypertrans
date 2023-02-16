@@ -44,6 +44,46 @@ In this repo, there are three main codes: HyperTrans.jar, THera.jar, and Observa
 
 ### Execution
 
+#### HyperTrans.jar
+##### Input
+````
+java -jar HyperTrans.jar [data path]
+````
+Note that data path is a path of input hypergraph. 
+
+##### Output
+It returns dataname_output.txt file with hyperwedge and the corresponding transitivity.
+For example, with "email_enron_HE.txt" file, it creates "email_enron_HE_output.txt", which looks like
+````
+0,3,0.1525
+1,5,0.5815
+````
+This implies
+- hyperedge index 0 and 3 is hyperwedge and the corresponding hyperwedge transitivity is 0.1525
+- hyperedge index 1 and 5 is hyperwedge and the corresponding hyperwedge transitivity is 0.5815
+
+#### THera.jar
+##### Input
+````
+java -jar HyperTrans.jar [data path] [C] [p] [alpha]
+````
+- Data path is a path to the original real-world hypergraph.
+- C is a size of each community.
+- p is a ratio of intra-community hyperedge.
+- alpha is a base of hierarchical hyperedge generation scalar.
+
+##### Output
+It returns dataname_output.txt file with hyperwedge and the corresponding transitivity.
+For example, with "email_enron_HE.txt" file and C = 10, p = 0.6, alpha = 3.0, it creates "email_enron_HE_10_0.6_3.0_THera.txt", which looks like
+````
+0,1,2
+0,2,3,4
+````
+This implies
+- First hyperedge consist of node index 0, 1, and 2.
+- Second hyperedge consist of node index 0, 2, 3, and 4.
+Note that this format is identical to the original hypergraph
+
 ## Reference
 
 [1]: Austin R. Benson, Rediet Abebe, Michael T. Schaub, Ali Jadbabaie, and Jon Kleinberg. Simplicial closure and higher-order link prediction. Proceedings of the National Academy of Sciences (PNAS), 2018.
