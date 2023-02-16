@@ -1,5 +1,11 @@
 # Official code and datasets of How Transitive Are Real-World Group Interactions? - Measurement and Reproduction
 
+## Description
+
+- This is an official code and datasets for How Transitive Are Real-World Group Interactions? - Measurement and Reproduction.
+- FastHyperTrans and THera are implemented with JAVA
+- Experimental results (Tables, Figures) are implemented with Python
+
 ## Dataset
 
 We used 12 real-world hypergraph datasets. Details and source of each datasets are as follows.
