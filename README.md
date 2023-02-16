@@ -8,6 +8,8 @@
 
 ## Dataset
 
+### Overview and Source
+
 We used 12 real-world hypergraph datasets. Details and source of each datasets are as follows.
 1. Email (Enron, EU) [1]
 2. NDC (Substances, Classes) [1]
@@ -17,6 +19,19 @@ We used 12 real-world hypergraph datasets. Details and source of each datasets a
 
 Since file sizes are greater than 25MB, we uploaded datasets in the following URL: 
 https://www.dropbox.com/sh/in4x4vly764su8g/AAAZZ3J81jY2dc7YaxmCmJVaa?dl=0
+
+### Example
+
+Each line of data indicates each hyperedge.
+Comma-seperated numbers are all node.
+Shape of each dataset is as follows:
+
+````
+ddd
+````
+
+
+
 
 ## Reference
 
