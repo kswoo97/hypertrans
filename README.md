@@ -27,9 +27,10 @@ Comma-seperated numbers are all node.
 Shape of each dataset is as follows:
 
 ````
-ddd
+0,1,2
+1,3,4,5
 ````
-
+where the first hyperedge consists of node index 0, 1, and 2, and the second hyperedge consists of node index 1, 3, 4, and 5.
 
 
 
