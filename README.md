@@ -15,4 +15,5 @@ https://www.dropbox.com/sh/in4x4vly764su8g/AAAZZ3J81jY2dc7YaxmCmJVaa?dl=0
 ## Reference
 
 [1]: Austin R. Benson, Rediet Abebe, Michael T. Schaub, Ali Jadbabaie, and Jon Kleinberg. Simplicial closure and higher-order link prediction. Proceedings of the National Academy of Sciences (PNAS), 2018.
+
 [2]: Sunwoo Kim, Minyoung Choe, Jaemin Yoo, and Kijung Shin. Reciprocity in Directed Hypergraphs: Measures, Findings, and Generators. IEEE International Conference On Data Mining (ICDM), 2022.
