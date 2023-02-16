@@ -15,7 +15,7 @@ We used 12 real-world hypergraph datasets. Details and source of each datasets a
 4. Co-Authorship (DBLP, MAG-Geology, -History) [1]
 5. Q&A (Ubuntu, Server, Math) [1, 2]
 
-Since file sizes are more than 25MB, we uploaded datasets in the following URL: 
+Since file sizes are greater than 25MB, we uploaded datasets in the following URL: 
 https://www.dropbox.com/sh/in4x4vly764su8g/AAAZZ3J81jY2dc7YaxmCmJVaa?dl=0
 
 ## Reference
