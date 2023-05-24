@@ -1,5 +1,11 @@
 # Official code and datasets of How Transitive Are Real-World Group Interactions? - Measurement and Reproduction
 
+## Publication
+
+How Transitive Are Real-World Group Interactions? - Measurement and Reproduction.
+Sunwoo Kim, Fanchen Bu, Minyoung Choe, Jaemin Yoo, and Kijung Shin.
+KDD 2023 [to appear]
+
 ## Description
 
 - This is an official code and datasets for How Transitive Are Real-World Group Interactions? - Measurement and Reproduction.
