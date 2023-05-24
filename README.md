@@ -2,7 +2,7 @@
 
 ## Publication
 
-How Transitive Are Real-World Group Interactions? - Measurement and Reproduction.
+How Transitive Are Real-World Group Interactions? - Measurement and Reproduction. 
 Sunwoo Kim, Fanchen Bu, Minyoung Choe, Jaemin Yoo, and Kijung Shin.
 KDD 2023 [to appear]
 
