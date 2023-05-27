@@ -2,7 +2,7 @@
 
 ## Publication
 
-- Name: How Transitive Are Real-World Group Interactions? - Measurement and Reproduction. 
+- Title: How Transitive Are Real-World Group Interactions? - Measurement and Reproduction. 
 - Authors: Sunwoo Kim, Fanchen Bu, Minyoung Choe, Jaemin Yoo, and Kijung Shin.
 - Venue: KDD 2023 [to appear]
 
